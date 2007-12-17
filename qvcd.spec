@@ -15,7 +15,6 @@ Source3: 	%{name}16.png
 URL:		http://www.steffen-sobiech.de/qvcd_1_en.htm
 License:	GPL
 Group:		Video
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	qt3-devel gettext png-devel
 Requires:	vcdimager cdrdao
 
