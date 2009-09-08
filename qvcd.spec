@@ -27,7 +27,7 @@ those tools, qvcd can be used to create a VideoCD out of an MPEG file.
 %setup -q
 
 %build
-%configure --with-qt-libraries=/usr/lib/qt3/%{_lib}
+%configure2_5x --with-qt-libraries=/usr/lib/qt3/%{_lib}
 %make
 										
 %install
