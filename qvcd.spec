@@ -1,6 +1,6 @@
 %define name	qvcd
 %define version	0.21
-%define release %mkrel 8
+%define release %mkrel 9
 
 
 Name: 	 	%{name}
