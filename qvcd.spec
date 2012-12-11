@@ -81,3 +81,50 @@ rm -rf $RPM_BUILD_ROOT
 %{_iconsdir}/%name.png
 %{_miconsdir}/%name.png
 
+
+
+%changelog
+* Tue Sep 08 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.21-9mdv2010.0
++ Revision: 433122
+- use %%configure2_5x
+- rebuild
+
+* Fri Aug 01 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.21-8mdv2009.0
++ Revision: 260007
+- rebuild
+
+* Fri Jul 25 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.21-7mdv2009.0
++ Revision: 247810
+- rebuild
+- drop old menu
+
+  + Pixel <pixel@mandriva.com>
+    - rpm filetriggers deprecates update_menus/update_scrollkeeper/update_mime_database/update_icon_cache/update_desktop_database/post_install_gconf_schemas
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 0.21-5mdv2008.1
++ Revision: 140743
+- restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+    - import qvcd
+
+
+* Sat Sep 16 2006 Emmanuel Andry <eandry@mandriva.org> 0.21-5mdv2007.0
+- %%mkrel
+- xdg menu
+
+* Wed Nov 09 2005 Austin Acton <austin@mandriva.org> 0.21-4mdk
+- lib64 fix
+
+* Fri Jul 16 2004 Michael Scherer <misc@mandrake.org> 0.21-3mdk 
+- rebuild for new gcc
+- fix libtool
+
+* Fri Apr 2 2004 Austin Acton <austin@mandrake.org> 0.21-2mdk
+- libtoolize
+- delib buildrequires
+- stale rebuild
+
+* Sat Mar 22 2003 Austin Acton <aacton@yorku.ca> 0.21-1mdk
+- initial package
