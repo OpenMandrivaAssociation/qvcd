@@ -12,7 +12,7 @@ Source:		%{name}-%{version}.tar.bz2
 Source1: 	%{name}48.png
 Source2: 	%{name}32.png
 Source3: 	%{name}16.png
-URL:		http://www.steffen-sobiech.de/qvcd_1_en.htm
+URL:		https://www.steffen-sobiech.de/qvcd_1_en.htm
 License:	GPL
 Group:		Video
 BuildRoot:	%{_tmppath}/%{name}-buildroot
